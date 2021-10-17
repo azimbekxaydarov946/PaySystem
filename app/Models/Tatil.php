@@ -14,6 +14,7 @@ class Tatil extends Model
         'sabab',
         'boshlangichsana',
         'oxirgisana',
+        'status',
         'xodim_id'
     ];
 

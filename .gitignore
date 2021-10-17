@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 /node_modules
 /public/hot
 /public/storage
@@ -12,7 +11,6 @@ npm-debug.log
 yarn-error.log
 /.idea
 /.vscode
-=======
 /vendor/
 node_modules/
 npm-debug.log
@@ -36,4 +34,3 @@ Homestead.yaml
 Homestead.json
 /.vagrant
 .phpunit.result.cache
->>>>>>> b607589d9cc876509f296a674201967eaeaab604

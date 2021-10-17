@@ -18,6 +18,7 @@ class CreateTatilsTable extends Migration
             $table->string('sabab');
             $table->date('boshlangichsana');
             $table->date('oxirgisana');
+            $table->boolean('status');
             $table->integer('xodim_id');
             $table->timestamps();
         });
