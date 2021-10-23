@@ -15,7 +15,7 @@ class Xodim extends Model
         'familiya',
         'sharif',
         'manzil',
-        'telefonRaqam',
+        'telefonraqam',
         'email',
         'bankschot',
         'parol',
@@ -24,7 +24,7 @@ class Xodim extends Model
         'malumot_id',
         'lavozim_id'
     ];
-    
+
     public function shahar()
     {
         return $this->belongsTo(Shahar::class, 'shahar_id', 'id');

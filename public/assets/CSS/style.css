@@ -110,17 +110,15 @@
     color: white;
     background-color: green;
 }
-/* start */
 
-
-.box .wrap .main .section .container .item {
+.box .wrap .main .section .item {
     margin-top: 3px;
     border: green solid 2px;
     width: 99.6%;
     height: 462px;
 }
 
-.box .wrap .main .section .container .item .above:nth-child(1) {
+.box .wrap .main .section .item .above:nth-child(1) {
     height: 160px;
     display: flex;
     justify-content: center;
@@ -130,39 +128,39 @@
     color: green;
 }
 
-.box .wrap .main .section .container .item .above:nth-child(1) .headsec:nth-child(1) {
+.box .wrap .main .section .item .above:nth-child(1) .headsec:nth-child(1) {
     width: 400px;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-.box .wrap .main .section .container .item .above:nth-child(1) .headsec:nth-child(1) select {
+.box .wrap .main .section .item .above:nth-child(1) .headsec:nth-child(1) select {
     font-size: 25px;
     color: black;
     border: green solid 1px;
 }
 
-.box .wrap .main .section .container .item .above:nth-child(1) .headsec:nth-child(2) {
+.box .wrap .main .section .item .above:nth-child(1) .headsec:nth-child(2) {
     width: 500px;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-.box .wrap .main .section .container .item .above:nth-child(1) .headsec:nth-child(2) select {
+.box .wrap .main .section .item .above:nth-child(1) .headsec:nth-child(2) select {
     font-size: 25px;
     color: black;
     border: green solid 1px;
 }
 
-.box .wrap .main .section .container .item .above:nth-child(1) .headsec:nth-child(3) {
+.box .wrap .main .section .item .above:nth-child(1) .headsec:nth-child(3) {
     display: flex;
     margin-top: 65px;
     margin-left: 40px;
 }
 
-.box .wrap .main .section .container .item .above:nth-child(2) {
+.box .wrap .main .section .item .above:nth-child(2) {
     height: 40px;
     border-top: solid green 1px;
     border-bottom: solid green 1px;
@@ -173,13 +171,13 @@
     align-items: center;
 }
 
-.box .wrap .main .section .container .item .above:nth-child(2) p {
+.box .wrap .main .section .item .above:nth-child(2) p {
     font-weight: 700px;
     font-size: 30px;
     background-color: rgb(242, 184, 184);
 }
 
-.box .wrap .main .section .container .item .above:nth-child(2) span {
+.box .wrap .main .section .item .above:nth-child(2) span {
     font-weight: 700px;
     font-size: 30px;
     background-color: rgb(242, 184, 184);
@@ -188,20 +186,20 @@
 }
 
 
-.box .wrap .main .section .container .item .above:nth-child(3) {
+.box .wrap .main .section .item .above:nth-child(3) {
     height: 246px;
     display: flex;
     flex-direction: column;
 }
 
-.box .wrap .main .section .container .item .above:nth-child(3) .all {
+.box .wrap .main .section .item .above:nth-child(3) .all {
     display: flex;
     justify-content: space-between;
     padding-left: 100px;
     padding-right: 100px;
 }
 
-.box .wrap .main .section .container .item .above:nth-child(3) .all .left {
+.box .wrap .main .section .item .above:nth-child(3) .all .left {
 
     align-items: center;
     display: flex;
@@ -209,12 +207,12 @@
 
 }
 
-.box .wrap .main .section .container .item .above:nth-child(3) .all .left input {
+.box .wrap .main .section .item .above:nth-child(3) .all .left input {
     height: 18px;
     width: 80px;
 }
 
-.box .wrap .main .section .container .item .above:nth-child(3) .all .right {
+.box .wrap .main .section .item .above:nth-child(3) .all .right {
 
     align-items: center;
     display: flex;
@@ -223,17 +221,17 @@
 
 }
 
-.box .wrap .main .section .container .item .above:nth-child(3) .all .right input {
+.box .wrap .main .section .item .above:nth-child(3) .all .right input {
     height: 18px;
     width: 80px;
 }
 
-.box .wrap .main .section .container .item .above:nth-child(3) .get {
+.box .wrap .main .section .item .above:nth-child(3) .get {
 
     display: flex;
     justify-content: center
 }
-/* end */
+
 .btn {
     font-size: 20px;
     align-items: center;

@@ -1,0 +1,199 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-shadow: none;
+    background-color: lightcyan;
+    text-decoration: none;
+}
+
+/* General  style*/
+.box {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+
+}
+
+/* 2/1 */
+.wrap {
+    margin: 3px;
+    height: 606px;
+    display: flex;
+    flex-direction: column;
+}
+
+/* wrap 2/1  */
+.box .wrap .header {
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box .wrap .header img {
+    height: 80px;
+
+}
+
+.box .wrap .header p {
+    color: black;
+    font-size: 50px;
+    font-weight: 700px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.box .wrap .header p span {
+    color: green;
+    font-size: 70px;
+    font-weight: 700px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+/* wrap 2/2  */
+.box .wrap .main {
+    display: flex;
+    justify-content: space-between;
+    height: 550px;
+
+}
+
+/* wrap main 2/1  */
+.box .wrap .main .nav {
+    width: 14%;
+    margin-right: 5px;
+}
+
+.box .wrap .main .nav ul li {
+    width: 100%;
+    height: 40px;
+    text-align: center;
+    margin-bottom: 3px;
+    border: solid 2px green;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.box .wrap .main .nav a {
+    font-size: 25px;
+    font-weight: 700px;
+    text-decoration: none;
+    color: green;
+
+}
+
+.box .wrap .main .nav h2 {
+    text-align: center;
+    font-size: 20px;
+    font-weight: 700px;
+    color: white;
+    background-color: green;
+
+}
+
+/* wrap main 2/2   asosiy ish joy*/
+
+
+
+.box .wrap .main .section {
+    width: 85%;
+
+}
+
+.box .wrap .main .section h2 {
+
+    text-align: center;
+    font-size: 38px;
+    font-weight: 20px;
+    color: white;
+    background-color: green;
+}
+
+/* start */
+.container {
+    margin-top: 3px;
+    height: 465px;
+    border: green solid 1px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.container .fath {
+    display: flex;
+    justify-content: space-around;
+}
+
+.container .fath .son {
+    width: 230px;
+    height: 210px;
+    background: green;
+    border: green solid 1px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.container .fath .son .son1 {
+    height: 55px;
+    background-color: green;
+    border-bottom: white solid 2px;
+}
+.container .fath .son .son1 p{
+    color: white;
+    font-size: 40px;
+    font-weight: 700;
+    margin-top: 5px;
+    background: none;
+}
+
+.container .fath .son .son2 {
+    height: 120px;
+    background-color: green;
+}
+.container .fath .son .son2 p{
+    color: white;
+    font-size: 80px;
+    font-weight: 700;
+    margin-top: 10px;
+    background: none;
+}
+
+.container .fath .son .son3 {
+    height: 35px;
+    background: linear-gradient(180deg, green, lightcyan);
+    }
+
+    /* end */
+
+
+    .btn {
+        font-size: 20px;
+        align-items: center;
+        width: 100px;
+        height: 40px;
+        color: white;
+        background-color: green;
+        margin: 0px;
+        padding: 0px;
+        border: none;
+        border-radius: 3px;
+    }
+
+    /* 2/2 */
+    .footer {
+        height: 23px;
+        display: flex;
+        justify-content: center;
+        color: white;
+        background-color: green;
+    }
+
+    .footer h3 {
+        text-align: center;
+        font-size: 20px;
+        font-weight: 20px;
+        color: white;
+        background-color: green;
+    }

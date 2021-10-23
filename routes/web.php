@@ -1,6 +1,9 @@
 <?php
 
+use App\Http\Livewire\BolimComponent;
 use App\Http\Livewire\HomeComponent;
+use App\Http\Livewire\IndexComponent;
+use App\Http\Livewire\LoginComponent;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -26,3 +29,6 @@ Route::middleware(['auth:sanctum', 'verified'])->get('/dashboard', function () {
 })->name('dashboard');
 
 Route::get('/',HomeComponent::class)->name('home');
+Route::get('bolim/',BolimComponent::class)->name('bolim');
+Route::get('index/',IndexComponent::class)->name('index');
+Route::get('login/',LoginComponent::class)->name('login');
