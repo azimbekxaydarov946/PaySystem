@@ -1,5 +1,5 @@
+<link rel="stylesheet" href="{{asset('assets/CSS/Style.css')}}">
 <div>
-    <link rel="stylesheet" href="{{asset('assets/CSS/Style.css')}}">
     <form action="">
         <div class="item">
             <div class="above">

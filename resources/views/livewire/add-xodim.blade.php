@@ -1,5 +1,5 @@
+<link rel="stylesheet" href="{{asset('assets/CSS/AddEmployee.css')}}">
 <div>
-    <link rel="stylesheet" href="{{asset('assets/CSS/AddEmployee.css')}}">
     <form action="">
         <div class="fath">
 

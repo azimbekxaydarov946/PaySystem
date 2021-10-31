@@ -110,14 +110,72 @@
     color: white;
     background-color: green;
 }
+
 /* start */
-.container{
+.container {
     margin-top: 3px;
     height: 465px;
     border: green solid 1px;
+    color: green;
+    display: flex;
+    flex-direction: column;
 }
 
+.container .fath .son {
+    display: flex;
+    justify-content: space-around;
+    height: 100px;
+    font-size: 20px;
+    font-weight: 500;
+}
 
+.container .fath .son .bosson {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+.container .fath .son .bosson label {
+    font-weight: 600;
+    margin-bottom: 10px;
+    font-size: 25px;
+}
+
+.container .fath .son .bosson select {
+    margin-bottom: 15px;
+    font-size: 20px;
+}
+
+.container .fath .son .bosson button {
+    margin-top: 17px;
+}
+
+.fath:nth-child(2) p{
+    background: rgb(247, 204, 226);
+    font-size: 30px;
+    font-weight: 700;
+    padding-left: 60px;
+    color: green;
+    display: block;
+
+}
+.container .fath .son .byson{
+    display: flex;
+}
+.container .fath .son .byson .leftson{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    margin-right: 50px;
+}
+.container .fath .son .byson .leftson:nth-child(even){
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.container .fath .son:nth-child(2){
+    margin-top: 100px;
+}
 
 /* end */
 

@@ -15,19 +15,19 @@
         <div class="wrap">
             <div class="header">
                 <img src="{{asset('images/logo.png')}}" alt="">
-                <a href="index.html" > <p><span>P</span>AY <span>S</span>YSTEM</p></a>
+                <a href="{{route('index')}}" > <p><span>P</span>AY <span>S</span>YSTEM</p></a>
 
             </div>
             <div class="main">
                 <div class="nav">
                     <ul>
-                        <a href="Home.html" style="cursor: pointer;">
+                        <a href="{{route('home')}}" style="cursor: pointer;">
                             <li style="color:  white; background-color: green;">
                                 <h2>Home</h2>
                             </li></a>
-                        <li><a href="">ADD CLASS</a></li>
-                        <li><a href="">ADD Employee</a></li>
-                        <li><a href="">Employee Report</a></li>
+                        <li><a href="{{route('bolim')}}">ADD CLASS</a></li>
+                        <li><a href="{{route('addxodim')}}">ADD Employee</a></li>
+                        <li><a href="{{route('xodimdetail')}}">Employee Report</a></li>
                         <li><a href="">Leave</a></li>
                         <li><a href="">Salary</a></li>
                         <li><a href="">Salary Report</a></li>

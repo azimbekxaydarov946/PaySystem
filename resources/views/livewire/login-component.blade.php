@@ -1,5 +1,5 @@
+<link rel="stylesheet" href="{{asset('assets/CSS/Login.css')}}">
 <div>
-    <link rel="stylesheet" href="{{asset('assets/CSS/Login.css')}}">
     <div class="fath">
         <form action="">
             <label for="1" style="display: block; margin-top: 20px;">Login</label>
