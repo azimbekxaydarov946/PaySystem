@@ -29,7 +29,7 @@
                         <li><a href="{{route('addxodim')}}">ADD Employee</a></li>
                         <li><a href="{{route('xodimdetail')}}">Employee Report</a></li>
                         <li><a href="">Leave</a></li>
-                        <li><a href="">Salary</a></li>
+                        <li><a href="{{route('maosh')}}">Salary</a></li>
                         <li><a href="">Salary Report</a></li>
                         <li><a href="">Year wise Report</a></li>
                         <li><a href="">Admin Login</a></li>

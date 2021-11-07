@@ -5,6 +5,7 @@ use App\Http\Livewire\BolimComponent;
 use App\Http\Livewire\HomeComponent;
 use App\Http\Livewire\IndexComponent;
 use App\Http\Livewire\LoginComponent;
+use App\Http\Livewire\MaoshComponent;
 use App\Http\Livewire\XodimDetailComponent;
 use Illuminate\Support\Facades\Route;
 
@@ -36,3 +37,4 @@ Route::get('index/',IndexComponent::class)->name('index');
 Route::get('login/',LoginComponent::class)->name('login');
 Route::get('addxodim/',AddXodim::class)->name('addxodim');
 Route::get('xodimdetail/',XodimDetailComponent::class)->name('xodimdetail');
+Route::get('maosh', MaoshComponent::class)->name('maosh');
